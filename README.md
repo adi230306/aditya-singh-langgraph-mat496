@@ -35,3 +35,11 @@
 <img width="219" height="251" alt="Screenshot 2025-10-16 at 9 22 44 PM" src="https://github.com/user-attachments/assets/762624d0-4abd-4e97-a258-82317ceffa9a" />
 
 - Link: - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/agent.ipynb
+
+---
+## Learnings from Module 1 (Lec 5) Agent-with-memory.ipynb
+- I learnt how to add memory to agents using the concept of threads and Memory() function using langgraph. Passing the same thread_id lets us proceed from the previous checkpoint.
+  
+- I ran the code using my own example by using the calculator tool from the previous file and used memory successfully by passing in the thread id.
+
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/agent-memory.ipynb
