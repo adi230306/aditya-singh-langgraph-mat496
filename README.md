@@ -43,3 +43,12 @@
 - I ran the code using my own example by using the calculator tool from the previous file and used memory successfully by passing in the thread id.
 
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/agent-memory.ipynb
+
+---
+## Learnings from Module 2 (Lec 1) State-schema.ipynb
+- I learnt how to use different types of ways of defining the state schema for my graph. The different types are TypedDict class, or Dataclass(use state.name instead of state['name'])
+and Pydantic, which is great for data validation.
+  
+- I ran the code and tried out my own example to choose from 2 different numbers using all the three state schema defining methods.
+
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/state-schema.ipynb
