@@ -100,3 +100,10 @@ and Pydantic, which is great for data validation.
 - I created a simpler number checking example that interrupts when a number is greater than 10. The new example uses basic number comparison instead of string length checks, making it easier to understand while demonstrating the same dynamic breakpoint concept.
   
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/dynamic_breakpoints.ipynb
+
+## Learnings from Module 3 (Lec 4) time-travel.ipynb
+- I learned how to implement "time travel" debugging in LangGraph, which allows viewing, replaying, and forking from past states of an agent's execution. This enables powerful debugging capabilities as it lets me inspect historical states, re-run from any checkpoint, and create alternative execution paths by modifying state at specific points.
+  
+- I ran the code and made my own example with tools such as square cube and double and updated all the example queries to use these new operations. The examples now demonstrate chaining operations like "calculate the square of 5 and then double the result" instead of simple multiplication problems.
+  
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/time_travel.ipynb
