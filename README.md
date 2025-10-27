@@ -93,4 +93,10 @@ and Pydantic, which is great for data validation.
   
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/edit_state_human_feedback.ipynb
 
-
+---
+## Learnings from Module 3 (Lec 4) dynamic-breakpoints.ipynb
+- I learned how to use dynamic breakpoints with NodeInterrupt to conditionally stop graph execution based on runtime conditions. The example showed how to interrupt when input length exceeds a limit, then update state and resume execution.
+  
+- I created a simpler number checking example that interrupts when a number is greater than 10. The new example uses basic number comparison instead of string length checks, making it easier to understand while demonstrating the same dynamic breakpoint concept.
+  
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/dynamic_breakpoints.ipynb
