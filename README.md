@@ -76,3 +76,11 @@ and Pydantic, which is great for data validation.
 
 
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/streaming_interruption.ipynb
+
+---
+## Learnings from Module 3 (Lec 2) Breakpoints.ipynb
+- I learnt how to use breakpoints. They allow you to pause graph execution at specific nodes, enabling human-in-the-loop workflows like approval and debugging.
+  
+- I ran the code and made a math assistant that squares, cubes, and doubles numbers, using breakpoints to pause before tool execution so users can approve or cancel calculations.
+
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/breakpoints.ipynb
