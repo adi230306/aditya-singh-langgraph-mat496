@@ -65,3 +65,14 @@ and Pydantic, which is great for data validation.
 
 
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/state-reducers.ipynb
+
+
+---
+## Learnings from Module 3 (Lec 1) Streaming-interruption.ipynb
+- I learnt how to use and implement different streaming modes in langgraph - full state values, state updates, and individual tokens. I also learnt how to visualize graph execution in real-time using various streaming methods.
+  
+- I ran the code and tried out my own example which implements a simpler chatbot and showed the different ways of streaming. Example streaming only tokens
+<img width="1288" height="576" alt="Screenshot 2025-10-27 at 8 43 25 PM" src="https://github.com/user-attachments/assets/b3c7abf7-db7d-47c5-8b9a-b973e4524af8" />
+
+
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/streaming_interruption.ipynb
