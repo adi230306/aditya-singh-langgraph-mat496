@@ -84,3 +84,13 @@ and Pydantic, which is great for data validation.
 - I ran the code and made a math assistant that squares, cubes, and doubles numbers, using breakpoints to pause before tool execution so users can approve or cancel calculations.
 
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/breakpoints.ipynb
+
+---
+## Learnings from Module 3 (Lec 3) edit-state-human-feedback.ipynb
+- I learnt how to edit graph state during interruptions and add human feedback nodes. This allows for user input mid execution and real-time modification of agent behaviour.
+  
+- I ran the code and used the math assistant from the previous file and demonstrated how to edit state by modifying user requests mid-flow and adding human feedback nodes to intercept and alter calculations.
+  
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/edit_state_human_feedback.ipynb
+
+
