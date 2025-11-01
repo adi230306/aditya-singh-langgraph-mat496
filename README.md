@@ -111,9 +111,17 @@ and Pydantic, which is great for data validation.
 
 
 ---
-## Learnings from Module 4 (Lec 1) .ipynb
+## Learnings from Module 4 (Lec 1) parallelization.ipynb
 - I learnt the working of parallel node execution in langgraph and how to create simple fan-out and fan-in programs. I learnt thhe use of reducers like operator.add in handling concurrent updates from parallel paths in the same graph or ensuring nodes to write separate state keys to avoid errors.
   
 - The calculator example demonstrates this parallel execution by taking a single input value and simultaneously calculating a sum and a product (the fan-out). The graph waits for both parallel operations to complete, and a final answer node combines both unique results to output the complete set of calculated values (the fan-in).
   
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/parallelization.ipynb
+
+---
+## Learnings from Module 4 (Lec 2) sub_graphs.ipynb
+- I learnt about the use of sub graphs to structure complex graphs into parallel execution of multiple tasks. The parent and sub-graphs communicate using overlapping keys and parallel outputs are merged using the add reducer to combine lists.
+  
+- My RecipeManager class takes a recipe and runs two subgraphs in parallel, one to calculate the ingredient cost and the other for nutritional analysis. The parent graph combines the outputs of both the graphs into a single final result
+
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/sub_graph.ipynb
