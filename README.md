@@ -125,3 +125,11 @@ and Pydantic, which is great for data validation.
 - My RecipeManager class takes a recipe and runs two subgraphs in parallel, one to calculate the ingredient cost and the other for nutritional analysis. The parent graph combines the outputs of both the graphs into a single final result
 
 - https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/sub_graph.ipynb
+
+---
+## Learnings from Module 4 (Lec 2) map_reduce.ipynb
+- I learnt about the Map-reduce pattern in langgraph. The map phase involves using Send to decompose and parallelize a task and the reduce phase involves priocessing the outputs from all the parallel outputs. The we can use Annotated[list, operator.add] in the OverallState as usual.
+  
+- The example I used here involves the LLM to generate three different taglines using Map and then Reduce to compare the the taglines and decide which one is best(According to the criteria of the shortest winning). 
+
+- https://github.com/adi230306/aditya-singh-langgraph-mat496/blob/main/sub_graph.ipynb
